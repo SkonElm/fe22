@@ -7,6 +7,14 @@ function myFunctionality()
 
 myFunctionality();
 
-function buttonHandler(){
+function buttonHandler()
+{
     console.log("Du klickade här");
+    alert("Incorrect password")
+}
+
+function sndBtn()
+{
+    const namn = prompt("Vad heter du?");
+    alert("Hello" + namn);
 }
